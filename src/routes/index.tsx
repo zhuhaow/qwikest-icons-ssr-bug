@@ -6,6 +6,8 @@ import Hero from '~/components/starter/hero/hero';
 import Infobox from '~/components/starter/infobox/infobox';
 import Starter from '~/components/starter/next-steps/next-steps';
 
+import {HiAcademicCap} from "@qwikest/icons/heroicons"
+
 export default component$(() => {
   return (
     <>
@@ -21,6 +23,7 @@ export default component$(() => {
         <div class="container center">
           <h3>
             You can <b>count</b> on me
+            <HiAcademicCap />
           </h3>
           <Counter />
         </div>
